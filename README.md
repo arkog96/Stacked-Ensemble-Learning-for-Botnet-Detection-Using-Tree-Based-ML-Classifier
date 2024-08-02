@@ -37,13 +37,22 @@ This imbalance can result in low sensitivity (high false negatives) and overesti
 ## Performance Evaluation 
 The result of the base classifiers and stacked ensemble is as follows, for both DS1 and DS2:
 
-**DS1**
+**<u>DS1</u>**
 | Classifier          | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
 |-----------------:|:----------:|:----------:|:----------:|:----------:|
 | Decision Tree| 99.9658   | 99.9659     | 99.9658  | 99.9658     |
 | Random Forest| 99.9487 | 99.9488   | 99.9487  | 99.9488     |
 | AdaBoost   | 99.9488 | 99.9488     | 99.9487  | 99.9487   |
 | Stacked Ensemble        | 99.9659    | 99.9659     | 99.9659  | 99.9659    |
+
+**<u>DS2</u>**
+| Classifier          | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+|-----------------:|:----------:|:----------:|:----------:|:----------:|
+| Decision Tree| 99.9203   | 99.9204     | 99.9203  | 99.9203    |
+| Random Forest| 99.9829| 99.9829   | 99.9487  | 99.9488     |
+| AdaBoost   | 99.9488 | 99.9488     | 99.9829  | 99.9829  |
+| Stacked Ensemble        | 99.9829    | 99.9829     | 99.9829  | 99.9829    |
+
 
 
 ## System Requirements
