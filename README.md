@@ -24,14 +24,14 @@ The N-BaIoT dataset is highly imbalanced, as shown in Figure 1 with bar and pie 
 
 This imbalance can result in low sensitivity (high false negatives) and overestimation of the model's accuracy. To address this problem, undersampling is employed, which involves reducing the number of records in the majority class to match the quantity of the minority class. After undersampling, the data distribution of both DS1 and DS2 is shown in Figure 2. 
 
-**<p align="center">Figure 1: Data distribution of DS1 & DS2 after undersampling.</p>**
+**<p align="center">Figure 2: Data distribution of DS1 & DS2 after undersampling.</p>**
 <p align="center">
 <img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1_Undersampled%20Bar.png" width="400" />
 <img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2_Undersampled%20Bar.png" width="400" />
 </p>
 <p align="center">
-<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1%20Pie%20Chart.png" width="400" />
 <img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1_Undersampled%20Pie.png" width="400" />
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2_Undersampled%20Pie.png" width="400" />
 </p>
 
 ## Performance Evaluation 
