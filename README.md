@@ -35,17 +35,15 @@ This imbalance can result in low sensitivity (high false negatives) and overesti
 </p>
 
 ## Performance Evaluation 
-The Per
-|                 |                         **DS1**                          |
-| Method          | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+The result of the base classifiers and stacked ensemble is as follows, for both DS1 and DS2:
+
+**DS1**
+| Classifier          | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
 |-----------------:|:----------:|:----------:|:----------:|:----------:|
-| Stacked Ensemble| 85.85    | 87.47     | 84.75  | 85.29    |
-| Concatenation Ensemble| 95.31 | 96.07     | 94.78  | 95.20    |
-| Confidence Averaging   | 97.72 | 97.96     | 97.50  | 97.69    |
-| VGG16-SA        | 98.72    | 98.79     | 98.63  | 98.70    |
-| VGG16-TPE       | 99.15    | 99.17     | 99.11  | 99.14    |
-| VGG16-RS        | 99.43    | 99.43     | 99.43  | 99.43    |
-| ME-IDS          | 99.72    | 99.74     | 99.68  | 99.71    |
+| Decision Tree| 99.9658   | 99.9659     | 99.9658  | 99.9658     |
+| Random Forest| 99.9487 | 99.9488   | 99.9487  | 99.9488     |
+| AdaBoost   | 99.9488 | 99.9488     | 99.9487  | 99.9487   |
+| Stacked Ensemble        | 99.9659    | 99.9659     | 99.9659  | 99.9659    |
 
 
 ## System Requirements
