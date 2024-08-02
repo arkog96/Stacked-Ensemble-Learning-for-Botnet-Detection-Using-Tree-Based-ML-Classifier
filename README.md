@@ -35,8 +35,8 @@ This imbalance can result in low sensitivity (high false negatives) and overesti
 </p>
 
 ## Performance Evaluation 
-The performance of the proposed ME-IDS framework is assessed against three benchmark ensemble methods, namely Stacked Ensemble, Concatenation Ensemble, and Confidence Averaging, as well as the three base classifiers used in the proposed weighted ensemble schemes within the framework.
-
+The Per
+|                 |                         **DS1**                          |
 | Method          | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
 |-----------------:|:----------:|:----------:|:----------:|:----------:|
 | Stacked Ensemble| 85.85    | 87.47     | 84.75  | 85.29    |
@@ -47,19 +47,13 @@ The performance of the proposed ME-IDS framework is assessed against three bench
 | VGG16-RS        | 99.43    | 99.43     | 99.43  | 99.43    |
 | ME-IDS          | 99.72    | 99.74     | 99.68  | 99.71    |
 
-**<p align="center">Figure 4: Performance improvement of ME-IDS compared to base classifiers and three benchmark ensemble methods using selected features.</p>**
-<p align="center">
-<img src="https://github.com/arkog96/Weighted-Ensemble-Transfer-Learning-based-Intrusion-Detection-System-/blob/main/Figures/Performance%20Improvement.jpg" width="450" />
-</p>
 
 ## System Requirements
  * Python 3.8
+ * [Pandas](https://pandas.pydata.org/)
+ * [NumPy](https://numpy.org/devdocs/)
+ * [Matplotlib](https://matplotlib.org/)
  * [Scikit-learn](https://scikit-learn.org/)
- * [Tensorflow 2.8.0](https://pypi.org/project/tensorflow/2.8.0/)
- * [Keras 2.8.0](https://pypi.org/project/keras/)
- * [Pillow (PIL)](https://pillow.readthedocs.io/)
- * [OpenCV](https://opencv.org/)
- * [Hyperopt](http://hyperopt.github.io/hyperopt/)
 
 ## Contact Information
 In case of any enquiry, question or collaboration opportunities, kindly reach out to me at:
