@@ -18,7 +18,7 @@ In this project, a publicly available dataset named, N-BaIoT, is utilized which 
 </p>
 
 <p align="center">
-<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2%20Bar%20Chart.png" width="400" />
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1%20Pie%20Chart.png" width="400" />
 <img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2%20Pie%20Chart.png" width="400" />
 </p>
 
