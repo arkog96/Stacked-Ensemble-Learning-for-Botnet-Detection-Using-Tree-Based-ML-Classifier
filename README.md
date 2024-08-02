@@ -11,6 +11,17 @@ In this project, a publicly available dataset named, N-BaIoT, is utilized which 
 
 ## Data Undersampling
 
+## Extracted Features from Audio Files
+
+<p align="center">
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1%20Bar%20Chart.png" width="400" />
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS1%20Pie%20Chart.png" width="400" />
+</p>
+
+<p align="center">
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2%20Bar%20Chart.png" width="400" />
+<img src="https://github.com/arkog96/Stacked-Ensemble-Learning-for-Botnet-Detection-Using-Tree-Based-ML-Classifier/blob/main/Figures/DS2%20Pie%20Chart.png" width="400" />
+</p>
 
 ## Performance Evaluation 
 The performance of the proposed ME-IDS framework is assessed against three benchmark ensemble methods, namely Stacked Ensemble, Concatenation Ensemble, and Confidence Averaging, as well as the three base classifiers used in the proposed weighted ensemble schemes within the framework.
